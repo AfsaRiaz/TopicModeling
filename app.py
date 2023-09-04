@@ -1,4 +1,5 @@
 import streamlit as st
+import bertopic
 from bertopic import BERTopic
 
 loaded_model = BERTopic.load("BERTopicModel/")
